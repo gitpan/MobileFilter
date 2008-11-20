@@ -1,0 +1,20 @@
+--- #YAML:1.0
+name:                Mobile-Filter
+version:             0.2
+abstract:            install files from here to there
+license:             ~
+distribution_type:   module
+requires:     
+    Apache2::Filter                0
+    Apache2::RequestRec            0
+    Apache2::RequestUtil           0
+    CGI::Cookie                    0 
+    Text::LevenshteinXS            0 
+    APR::Table                     0 
+    Apache2::Const                 0 
+    LWP::Simple                    0 
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - ifuschini <ifuschini@cpan.org>
